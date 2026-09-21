@@ -13,6 +13,9 @@ The script gathers information about users, the operating system, kernel, disk s
 - User groups
 - Local users from /etc/passwd
 
+### Permissions 
+- SUID and SGID
+
 ### System
 - Kernel information
 - Operating system information
@@ -21,6 +24,7 @@ The script gathers information about users, the operating system, kernel, disk s
 
 ### Network
 - /etc/hosts
+- Network information via command ss
 
 ### Other
 - System crontab
